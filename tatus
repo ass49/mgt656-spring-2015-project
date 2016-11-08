@@ -1,0 +1,35 @@
+[1mdiff --git a/.c9/project.settings b/.c9/project.settings[m
+[1mindex 6d8972d..494c638 100644[m
+[1m--- a/.c9/project.settings[m
+[1m+++ b/.c9/project.settings[m
+[36m@@ -22,7 +22,29 @@[m
+         "@semi": "true",[m
+         "@undeclaredVars": "true",[m
+         "@unusedFunctionArgs": "false",[m
+[31m-        "@warnLevel": "info"[m
+[32m+[m[32m        "@warnLevel": "info",[m
+[32m+[m[32m        "tern_defs": {[m
+[32m+[m[32m            "json()": {[m
+[32m+[m[32m                "browser": {[m
+[32m+[m[32m                    "enabled": true[m
+[32m+[m[32m                },[m
+[32m+[m[32m                "ecma5": {[m
+[32m+[m[32m                    "enabled": true[m
+[32m+[m[32m                },[m
+[32m+[m[32m                "jQuery": {[m
+[32m+[m[32m                    "enabled": true[m
+[32m+[m[32m                }[m
+[32m+[m[32m            }[m
+[32m+[m[32m        }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "php": {[m
+[32m+[m[32m        "@completion": true,[m
+[32m+[m[32m        "@path": ".:./vendor"[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "python": {[m
+[32m+[m[32m        "@completion": true,[m
+[32m+[m[32m        "@path": "/usr/local/lib/python2.7/dist-packages:/usr/local/lib/python3.4/dist-packages:/usr/local/lib/python3.5/dist-packages",[m
+[32m+[m[32m        "@version": "python2"[m
+     },[m
+     "run": {[m
+         "@path": "/.c9/runners",[m
